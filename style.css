@@ -1,12 +1,13 @@
 main {
     min-width: 100vw;
     min-height: 100vh;
-    border: 1px solid red;
+    display: grid;
+    place-items: center;
 }
 
 .calculator {
     width: 100%;
-    max-width: 250px;
+    max-width: 500px;
 }
 
 .calculator-display > * {
