@@ -1,0 +1,15 @@
+main {
+    min-width: 100vw;
+    min-height: 100vh;
+    border: 1px solid red;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 250px;
+}
+
+.calculator-display > * {
+    min-height: 32px;
+    word-wrap: break-word;
+}
